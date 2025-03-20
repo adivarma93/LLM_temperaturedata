@@ -62,9 +62,9 @@ trend_data = df.groupby(['City', 'Country']).apply(calc_trend, include_groups=Fa
 trend_data = trend_data.dropna()
 print(f"Trend dataset size: {len(trend_data)} rows")
 
-# Check Berlin's trend
-berlin_trend = trend_data[(trend_data['City'] == 'Delhi') & (trend_data['Country'] == 'India')]['trend'].values[0]
-print(f"Berlin's actual trend: {berlin_trend:.2f}°C")
+# Check Delhi's trend
+city_trend = trend_data[(trend_data['City'] == 'Delhi') & (trend_data['Country'] == 'India')]['trend'].values[0]
+print(f"Delhi's actual trend: {city_trend:.2f}°C")
 
 # Create instruction-response pairs
 instr, resp = [], []
