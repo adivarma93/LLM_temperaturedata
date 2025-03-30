@@ -29,7 +29,7 @@ Key features:
 1. Clone the repository:
    ```bash
    git clone https://github.com/adivarma93/LLM_temperaturedata.git
-   cd phi2-lang-plot
+   cd LLM_temperaturedata
 
 
 Example Queries
