@@ -24,6 +24,9 @@ Key features:
   - Bitsandbytes (4-bit quantization)
   - Pandas, Matplotlib (data processing/visualization)
 
+## Dataset
+- **Kaggle** - https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
+
 ##  Installation
 
 1. Clone the repository:
